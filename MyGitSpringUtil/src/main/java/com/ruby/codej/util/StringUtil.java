@@ -27,4 +27,11 @@ public class StringUtil {
 		return !isEmpty(message);
 	}
 
+	public static boolean isNotNull() {
+		return false;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("---");
+	}
 }

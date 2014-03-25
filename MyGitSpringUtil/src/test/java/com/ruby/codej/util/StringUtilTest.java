@@ -12,7 +12,7 @@ public class StringUtilTest {
 		assertTrue("문자열에 null이 들어올 때", StringUtil.isEmpty(null));
 		assertTrue("문자열에 공백이 들어올 때", StringUtil.isEmpty(""));
 
-		assertFalse("문자열이 있 을때", StringUtil.isEmpty("message!!"));
+		assertFalse("문자열이 있을 때", StringUtil.isEmpty("message!!"));
 	}
 
 
@@ -21,7 +21,6 @@ public class StringUtilTest {
 		assertFalse("문자열에 null이 들어올 때 실패", StringUtil.isNotEmpty(null));
 		assertFalse("문자열에 공백이 들어올 때 실패", StringUtil.isNotEmpty(""));
 
-		assertTrue("문자열이 있 을때 성공", StringUtil.isNotEmpty("message!!"));
+		assertTrue("문자열이 있을 때 성공", StringUtil.isNotEmpty("message!!"));
 	}
-
 }
