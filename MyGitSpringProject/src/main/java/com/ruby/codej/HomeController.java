@@ -35,6 +35,8 @@ public class HomeController {
 		System.out.println("TEST");
 		System.out.println("TEST2");
 		
+		System.out.println("sprint1 close");
+		
 		return "home";
 	}
 	
