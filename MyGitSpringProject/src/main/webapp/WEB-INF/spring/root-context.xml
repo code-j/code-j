@@ -5,4 +5,12 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 		
+		<bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+			<property name="messageConverters">
+				<list>
+					<bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"/>
+				</list>
+			</property>
+		
+		</bean>
 </beans>
